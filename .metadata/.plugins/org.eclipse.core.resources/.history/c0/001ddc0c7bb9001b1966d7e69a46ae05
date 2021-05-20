@@ -1,0 +1,8 @@
+package model;
+
+@Getter @Setter @NoArgsConstructor
+public class NadmorskaVisina {
+	private Integer nadmorska_visina;
+	private PolozajTerena polozajTerena;
+	private float ocena;
+}

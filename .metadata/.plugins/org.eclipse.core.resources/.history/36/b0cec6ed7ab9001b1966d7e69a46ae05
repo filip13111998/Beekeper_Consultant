@@ -1,0 +1,7 @@
+package model;
+
+public class NadmorskaVisina {
+	private Integer nadmorska_visina;
+	private PolozajTerena polozajTerena;
+	
+}

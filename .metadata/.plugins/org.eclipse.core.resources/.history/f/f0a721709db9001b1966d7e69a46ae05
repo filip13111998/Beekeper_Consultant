@@ -1,0 +1,11 @@
+package sbnz.rules;
+
+import model.NadmorskaVisina;
+
+rule "proba"
+    when
+        $nv: NadmorskaVisina( nadmorska_visina <= 300)
+    then
+        $i.setCategory(Item.Category.LOW_RANGE);
+        update($i);
+end

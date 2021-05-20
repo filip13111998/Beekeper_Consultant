@@ -1,0 +1,12 @@
+package model;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter @Setter @NoArgsConstructor
+public class Dan {
+	private float temperatura;
+	private float vlaznost_vazduha;
+	private float jacina_vetra;
+}
